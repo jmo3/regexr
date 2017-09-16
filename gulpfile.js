@@ -132,7 +132,7 @@ gulp.task('minify-css', function () {
 
 gulp.task('open-build', function () {
 	gulp.src(__filename)
-		.pipe(open({uri: 'http://localhost:8080'}));
+		.pipe(open({uri: 'http://0.0.0.0:8080'}));
 });
 
 gulp.task('clean-pre-build', function () {
